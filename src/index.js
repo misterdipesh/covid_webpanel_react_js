@@ -3,9 +3,11 @@ import ReactDOM from 'react-dom';
 import Covidapicall from './covid';
 import reportWebVitals from './reportWebVitals';
 
+
+
 ReactDOM.render(
   <React.StrictMode>
-    <Covidapicall />
+    <Covidapicall/>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -13,6 +13,7 @@ class Covidpanel extends Component{
 					<p className='datas'>Total Deaths: {item.deaths}</p>
 					<p className='datas'>Total Recovered: {item.recovered}</p>
 					<p className='datas'>Active Cases: {item.active}</p>
+					<p className='datas'>Critical Cases: {item.critical}</p>
 					<p className='datas'>New Cases: {item.todayCases}</p>
 					<p className='datas'>New Deaths: {item.todayDeaths}</p>
 				</div>
