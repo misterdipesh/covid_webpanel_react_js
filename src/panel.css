@@ -1,0 +1,20 @@
+.header{
+	background:purple;
+	border-radius:10px;
+	padding:5px;
+	margin:auto;
+	font-size:24px;
+	color:white;
+}
+.maindiv{
+	background:#d8bfd8;
+	border-radius:12px;
+	border:solid purple;
+	margin:10px 10px;
+}
+.datas{
+	margin:10px;
+	color:black;
+	font-weight:bold;
+	font-size:20px;
+}
