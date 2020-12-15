@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import axios from 'axios';
-class Covid extends React.Component{
+import Covidpanel from './panel';
+class Covidapicall extends React.Component{
 
 	constructor(props){
 		super(props);
@@ -29,9 +30,9 @@ class Covid extends React.Component{
 	render(){
 		return(
 				<div>{this.state.loading?<div>Page is loading...</div>:
-				<div>{this.state.covidData.map((data)=><div>{data.country}</div>)}</div>}
+				<div>{this.state.covidData.map((data)=><Covidpanel data={data}/>)}</div>}
 				</div>			   
 		);
 	}
 };
-export default Covid;
+export default Covidapicall;
